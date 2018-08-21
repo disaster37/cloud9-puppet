@@ -21,6 +21,8 @@ puppet module install garethr/docker
 gem install nokogiri -- --use-system-libraries=true --with-xml2-include=/usr/include/libxml2
 gem install beaker-rspec -v 6.2.3
 gem install beaker -v 4.0.0
+gem install beaker-puppet -v 1.1.0
+gem install beaker-puppet_install_helper -v 0.9.4
 
 # Clean install
 apt-get clean
